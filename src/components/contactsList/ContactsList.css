@@ -1,0 +1,27 @@
+.contacts-list{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contacts-list tr:hover {
+    background-color: rgb(128, 110, 110);
+    cursor: pointer;
+}
+
+.contacts-list th,
+.contacts-list td {
+    text-align: center;
+    padding: 5px;
+    color: aqua;
+    border-bottom: 2px solid rgb(19, 19, 19);
+}
+
+thead th{
+    font-size: 20px;
+    color: black !important;
+}
+
+button {
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
